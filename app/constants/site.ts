@@ -47,14 +47,14 @@ export const RESUME_INFO = {
   experience: [
     {
       company: "Dynatrace",
-      title: "Sr. Software Engineer",
+      title: "Sr. Technical Support Engineer",
       startDate: "2020-01-01",
       endDate: "2023-12-31",
       description: "Worked on various projects involving web development and cloud computing.",
     },
     {
       company: "Dynatrace",
-      title: "Software Engineer",
+      title: "Technical Support Engineer",
       startDate: "2021-06-01",
       endDate: "2021-06-01",
       description: "Focused on building responsive user interfaces using React and Next.js.",
@@ -63,7 +63,7 @@ export const RESUME_INFO = {
   education: [
     {
       institution: "Central Michigan University",
-      degree: "B.S. in Computer Science",
+      degree: "B.S. in Computer Engineering",
       startDate: "2016-08-01",
       endDate: "2021-04-01",
     },
