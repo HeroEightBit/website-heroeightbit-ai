@@ -5,9 +5,10 @@ import { RESUME_INFO } from "../constants/site";
 export default function Resume() {
 
     return (
-        <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-            <h1 className="text-3xl font-bold p-8">Resume</h1>
-            <main className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+        <div className="flex flex-col flex-1 items-center justify-start wrap-normal bg-zinc-50 font-sans dark:bg-black">
+                <h1 className="text-3xl font-bold p-8 ">Resume</h1>
+            <main className="flex flex-col wrap-normal flex-1 items-center justify-start bg-zinc-50 font-sans dark:bg-black">
+                <p className="text-lg max-w-4xl whitespace-normal text-zinc-600 dark:text-zinc-400">{RESUME_INFO.summary}</p>
                 <div className="flex flex-col items-start mt-4">
                     <h2 className="text-2xl font-semibold mt-8">Experience</h2>
                     <Dropdown title={RESUME_INFO.experience[0].title} description={RESUME_INFO.experience[0].description} startDate={RESUME_INFO.experience[0].startDate} endDate={RESUME_INFO.experience[0].endDate} />
@@ -20,4 +21,4 @@ export default function Resume() {
             </main>
         </div>
     )
-} 
+}       

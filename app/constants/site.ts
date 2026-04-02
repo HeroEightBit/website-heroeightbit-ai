@@ -44,6 +44,7 @@ export const SITE_CONFIG = {
 };
 
 export const RESUME_INFO = {
+  summary: "Dynamic Sr. Technical Support Engineer at Dynatrace with expertise in Real User Monitoring and workflow automation. Proven track record in resolving complex performance issues and enhancing service reliability. Strong leadership and critical thinking skills, driving team collaboration and empowering clients through effective troubleshooting strategies and quality assurance initiatives.",
   experience: [
     {
       company: "Dynatrace",
@@ -54,7 +55,7 @@ export const RESUME_INFO = {
     },
     {
       company: "Dynatrace",
-      title: "Technical Support Engineer",
+    title: "Technical Support Engineer",
       startDate: "2021-06-01",
       endDate: "2021-06-01",
       description: "Focused on building responsive user interfaces using React and Next.js.",
