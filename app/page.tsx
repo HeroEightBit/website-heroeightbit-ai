@@ -1,3 +1,5 @@
+import Tiles from "./components/Tiles";
+
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
@@ -13,6 +15,9 @@ export default function Home() {
             <li>To share recipes and cooking tips</li>
             <li>To provide a way for people to learn more about me</li>
           </ol>
+        </div>
+        <div className="mb-8 w-full">
+          <Tiles />
         </div>
       </main>
     </div>
