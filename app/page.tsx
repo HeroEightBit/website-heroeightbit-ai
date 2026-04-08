@@ -1,16 +1,21 @@
 'use client';
 
-import { ChangeEvent, FormEvent, useState } from "react";
+import { FormEvent, useState } from "react";
 import Tiles from "./components/Tiles";
 
 export default function Home() {
   const [text, setText] = useState('')
   const [company, setCompany] = useState('')
   const [comment, setComment] = useState('')
+  const [status, setStatus] = useState('')
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
     console.log('Submitted:', { name: text, company, comment })
+    setStatus('Thank you!')
+    setText('')
+    setCompany('')
+    setComment('')
   }
 
   return (
@@ -75,6 +80,9 @@ export default function Home() {
             <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-900 hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Submit
             </button>
+            {status && (
+              <p className="mt-3 text-sm text-red-700">{status}</p>
+            )}
           </form>
         </div>
       </main>
