@@ -3,7 +3,7 @@ import { SITE_CONFIG } from '../constants/site';
 
 const Sidebar = () => {
   return (
-    <aside className="float-left top-0 h-screen bg-red-900 text-white p-4 pr-12 mr-4">
+    <aside className="">
       <div className="mb-2 text-xl font-bold">{SITE_CONFIG.name}</div>
       <hr />
       <nav className="flex flex-col gap-2 mt-4">
