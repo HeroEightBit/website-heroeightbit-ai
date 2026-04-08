@@ -10,6 +10,7 @@ const Sidebar = () => {
         <Link href="/" className="hover:bg-red-800 p-2 rounded transition">Home</Link>
         <Link href="/resume" className="hover:bg-red-800 p-2 rounded transition">Resume</Link>
         <Link href="/projects" className="hover:bg-red-800 p-2 rounded transition">Projects</Link>
+        <Link href="/fun-software" className="hover:bg-red-800 p-2 rounded transition">Software</Link>
         <Link href="/recipes" className="hover:bg-red-800 p-2 rounded transition">Recipes</Link>
         <Link href="/about" className="hover:bg-red-800 p-2 rounded transition">About</Link>
       </nav>

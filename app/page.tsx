@@ -13,6 +13,7 @@ export default function Home() {
             <li>To store my resume and experience</li>
             <li>To showcase my projects </li>
             <li>To share recipes and cooking tips</li>
+            <li>To share fun open source software!</li>
             <li>To provide a way for people to learn more about me</li>
           </ol>
         </div>
