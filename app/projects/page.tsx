@@ -8,7 +8,6 @@ function Projects() {
             <ol className="list-decimal list-inside mt-2">
                 <li><a href="https://github.com/HeroEightBit/website-heroeightbit-ai" className="text-red-500 hover:underline">HeroEightbit.com</a> - My personal website</li>
                 <li><a href="https://github.com/HeroEightBit/interviewer-assistant" className="text-red-500 hover:underline">Interviewer Assistant</a> - A web application for conducting interviews</li>
-
             </ol>
         </main> 
         </div>  
