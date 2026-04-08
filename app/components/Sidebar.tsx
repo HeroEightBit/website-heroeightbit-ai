@@ -3,9 +3,10 @@ import { SITE_CONFIG } from '../constants/site';
 
 const Sidebar = () => {
   return (
-    <aside className="fixed left-0 top-0 h-screen w-48 bg-red-900 text-white p-4">
-      <div className="mb-8 font-bold text-xl">{SITE_CONFIG.name}</div>
-      <nav className="flex flex-col gap-2">
+    <aside className="float-left top-0 h-screen bg-red-900 text-white p-4 mr-4">
+      <div className="mb-2 text-xl">{SITE_CONFIG.name}</div>
+      <hr />
+      <nav className="flex flex-col gap-2 mt-4">
         <Link href="/" className="hover:bg-red-800 p-2 rounded transition">Home</Link>
         <Link href="/resume" className="hover:bg-red-800 p-2 rounded transition">Resume</Link>
         <Link href="/projects" className="hover:bg-red-800 p-2 rounded transition">Projects</Link>
